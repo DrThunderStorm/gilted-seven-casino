@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Gilted Seven Casino</title>
+    <!-- Définition des variables symbols et symbolValues -->
+    <script>
+        // Définir la liste des symboles et leurs valeurs
+        const symbols = ["7", "Gilted 7", "Cherry", "Bell", "Bar", "Lemon", "Clover"];
+        const symbolValues = {
+            "7": 10,
+            "Gilted 7": 20,
+            "Cherry": 3,
+            "Bell": 5,
+            "Bar": 7,
+            "Lemon": 2,
+            "Clover": 0
+        };
+    </script>
+
+    <!-- futur lien vers un css. -->
+</head>
+<body>
+    <h1>The Gilted Seven Casino</h1>
+    <p>Money: <span id="money">100</span>$</p>
+    <input type="number" id="bet" placeholder="Place your bet ($1 minimum)">
+    <button onclick="playSlotMachine()">Play</button>
+    <p>Results: <span id="results"></span></p>
+
+    <!-- Lien vers votre fichier main.js -->
+    <script src="main.js"></script>
+</body>
+</html>
+
